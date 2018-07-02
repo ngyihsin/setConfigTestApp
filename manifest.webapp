@@ -1,0 +1,28 @@
+  {
+  "name": "Set Config test",
+  "description": "Set Config test",
+  "launch_path": "/index.html",
+  "type": "certified",
+  "default_locale": "en-US",
+  "locales": {
+    "en-US": {
+      "name": "SetConfig test",
+      "description": "Set Rf config test"
+    }
+  },
+  "icons": {
+    "56": "/style/icons/Default.png"
+  },
+  "chrome": {
+    "statusbar": "overlap"
+  },
+  "orientation": "default",
+  "activities": {},
+  "permissions": {
+    "secureelement-manage": {},
+    "device-storage:sdcard":{ "access": "readwrite" },
+    "settings":{ "access": "readwrite" },
+    "nfc":{},
+    "nfc-manager": {}
+  }
+}

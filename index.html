@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+    <meta name="theme-color" content="transparent">
+    <title>Blank</title>
+    <meta name="defaultLanguage" content="en-US">
+    <meta name="availableLanguages" content="en-US, zh-TW">
+    <script defer src="script/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="style/style.css" >
+  </head>
+  <body class="theme-productivity">
+    <h5>SetConfig test</h4>
+    <div>
+      <div>SetConfig with new transit RF file</div>
+      <button width="60" height="100" class="navigable" id="setConfig-button">setConfig</button>
+      <div style="color:#FF0000" id="setConfig_result"></div>
+    </div>
+    <div>
+      <div>Revert to default</div>
+      <button width="60" height="100" class="navigable" id="setConfigNull-button">revertDefault</button>
+      <div style="color:#FF0000" id="setConfigNull_result"></div>
+    </div>
+    <div>
+      <div>Revert to transit</div>
+      <button width="60" height="100" class="navigable" id="setConfigEmpty-button">revertTransit</button>
+      <div style="color:#FF0000" id="setConfigEmpty_result"></div>
+    </div>
+    <div>
+      <button width="60" height="100" class="navigable" id="clear-button">clear</button>
+    </div>
+  </body>
+</html>

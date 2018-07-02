@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "lint": "npm run lint:css && npm run lint:js",
+    "lint:js": "eslint script",
+    "lint:css": "stylelint 'style/*.css'"
+  },
+  "precommit": [
+    "lint"
+  ],
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "pre-commit": "^1.2.2",
+    "stylelint": "^7.8.0",
+    "stylelint-config-standard": "^16.0.0"
+  }
+}

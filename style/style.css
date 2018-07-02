@@ -1,0 +1,11 @@
+body {
+  background-color: #eee;
+}
+
+input:focus{
+  background-color: lightblue;
+}
+
+button:focus{
+  background-color: lightblue;
+}
